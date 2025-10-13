@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>  
-    <title>Home Page</title>   
+    <title></title>   
     <link href="" rel="stylesheet">    
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <main class="container">
 
     <div class="box"> 
-      <h1>Home Page</h1>
+      <h1>API Tester</h1>
       <div class="">
          
       </div>
