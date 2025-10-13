@@ -1,5 +1,14 @@
 <?php
+require_once 'config.inc.php';
+
+try {
+    $pdo = new PDO(DBCONNSTRING, DBUSER, DBPASS);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (Exception $e) {
+    die($e->getMessage());
+}
 ?>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,4 +31,5 @@
 </body>
 <footer>
 </footer>
+
 </html>
