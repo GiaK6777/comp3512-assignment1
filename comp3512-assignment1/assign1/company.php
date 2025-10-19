@@ -36,9 +36,25 @@ require_once './includes/config.inc.php';
 </table>
 <div class="box">
     <h2>History (3M)</h2>
+    
     <div>
-        <table>
+        <table class="">
+            <thead>    
+                <tr>
+                    <th> Date</th>
+                        <th>Volume</th>
+                            <th> Open</th>
+                                <th>Close</th>
+                                    <th>High</th>
+                                        <th>Low</th>
+                </tr>
+</thead>
+        <tbody>
+        </tbody>
 
+</table>
+
+</div>
 </div>
 <h3>History High</h3>
 <h3>History Low</h3>
